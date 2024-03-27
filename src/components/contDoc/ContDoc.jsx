@@ -29,9 +29,9 @@ const ContDoc = () => {
             <div className="doc">
                 <div className="docCont">
                     <img src="../../src/assets/Group 312762.png" alt="" />
-                    <img src="../../src/assets/Group 312762.png" alt="" />
-                    <img src="../../src/assets/Group 312762.png" alt="" />
-                    <img src="../../src/assets/Group 312762.png" alt="" />
+                    <img src="../../src/assets/Group 312763.png" alt="" />
+                    <img src="../../src/assets/Group 312764.png" alt="" />
+                    <img src="../../src/assets/Group 312765.png" alt="" />
                 </div>
                 <div className="certificate">
                     <div className="logos">
