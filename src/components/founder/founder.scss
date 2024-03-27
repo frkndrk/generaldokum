@@ -1,0 +1,51 @@
+.founder{
+    width: 100vw;
+    position: relative;
+    background-color: #15141C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-style: normal;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+
+    .contInfo{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .info{
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            flex-direction: column;
+
+            h3{
+                color: #fff;
+                font-size: 50px;
+                margin-bottom: 20px;
+
+                span{
+                    font-weight: 400;
+                }
+            }
+
+            p{
+                color: #C1C1C1;
+                margin-right: 50px;
+                font-size: 15px;
+            }
+            
+        }
+
+        .pic{
+            border:10px solid #B72222;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

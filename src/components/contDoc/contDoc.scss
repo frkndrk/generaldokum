@@ -1,0 +1,61 @@
+.contDoc{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #15141C;
+    font-style: normal;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    color: #fff;
+    background-image: url("../../assets/Mask Group 4510.png"), url("../../assets/Mask Group 4509.png"), url("../../assets/sdsasadssae.fw.png");
+    background-position: left top, left 30% top, left 60% top 5%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+
+    .cont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 300px;
+        background-color: #15141C;
+        z-index: 111;
+
+        
+
+        p{
+            color: #B72222;
+        }
+
+        h2{
+            font-weight: 700;
+            font-size: 70px;
+            text-align: center;
+        }
+
+        .right-side{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 62px;
+            margin-top: 100px;
+
+            button{
+                background-color: transparent;
+                color: #fff;
+                outline: none;
+                border: 1px solid #aaa;
+
+                &:nth-child(1){
+                    width: 133px;
+                    height: 100%;
+                }
+
+                &:nth-child(2){
+                    width: 70px;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}

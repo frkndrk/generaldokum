@@ -1,0 +1,131 @@
+.capabilities{
+    background-color: #15141C;
+    width: 100vw;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-style: normal;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+
+    .cont1{
+        text-align: center;
+
+        h2{
+            font-weight: 700;
+            font-size: 70px;
+            margin-top: 50px;
+        }
+
+        p{
+            font-weight: 100;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+    }
+
+    .cont2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        width: 100vw;
+
+        .cont-area{
+            width: 32.5%;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .contIn{
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(180deg, transparent 30%, #cd0000);
+                opacity: 0.8;
+                display: flex;
+                justify-content: end;
+                align-items: start;
+                flex-direction: column;
+                padding: 0 0 30px 30px;
+
+                h4{
+                    font-size: 25px;
+                }
+
+                .contIn1a{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    p{
+                        font-size: 13px;
+                        color: #fff;
+                        padding-right: 10px;
+                    }
+
+                    .contA1{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-right: 15px;
+
+                        button{
+                            background-color: transparent;
+                            outline: none;
+                            border: none;
+                            color: #fff;
+                        }
+
+                    }
+
+                    
+                }
+
+                
+            }
+        }
+
+        .cont1A{
+            background-image: url("../../assets/otomotiv.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .cont2A{
+            background-image: url("../../assets/Melting.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .cont3A{
+            background-image: url("../../assets/Die Casting.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+
+    .dots{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100px;
+
+        .dot{
+            width: 20px;
+            height: 7px;
+            border: 1px solid #fff;
+            border-radius: 9px;
+
+            &:nth-child(1) {
+                background: #B72222 0% 0% no-repeat padding-box;
+            }
+        }
+    }
+}

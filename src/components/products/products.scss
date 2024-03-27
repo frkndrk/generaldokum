@@ -1,0 +1,108 @@
+.products{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #15141C;
+    font-style: normal;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    color: #fff;
+
+    .main-cont{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        flex-direction: column;
+
+        .header{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 50px;
+
+            .heading{
+                display: flex;
+                justify-content: start;
+                align-items: start;
+                flex-direction: column;
+
+                p{
+                    font-size: 10px;
+                    color: #B72222;
+                }
+
+                h4{
+                    font-size: 40px;
+                }
+            }
+
+            .right-side{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 62px;
+
+                button{
+                    background-color: transparent;
+                    color: #fff;
+                    outline: none;
+                    border: 1px solid #aaa;
+
+                    &:nth-child(1){
+                        width: 133px;
+                        height: 100%;
+                    }
+
+                    &:nth-child(2){
+                        width: 70px;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+
+        .product-cont{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            width: 100%;
+
+            .product{
+                width: 32%;
+                height: 375px;
+                background-color: #1D1C24;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                
+
+                img{
+                    object-fit: contain;
+                    width: 200px;
+                    height: 200px;
+                }
+
+                .product-info{
+                    position: absolute;
+                    left:20px;
+                    bottom: 20px;
+
+                    h4{
+
+                    }
+
+                    p{
+                        color: #B72222;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,252 @@
+.export{
+    width: 100vw;
+    position: relative;
+    background-color: #15141C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    font-style: normal;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+
+
+    .export-head{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 60%;
+        color: #fff;
+        margin-top: 100px;
+        
+
+    
+
+        h2{
+            font-weight: 700;
+            font-size: 70px;
+        }
+        p{
+            text-align: center;
+            font-size: 13px;
+            margin: 0 50px;
+            color: #C1C1C1;
+        }
+    }
+
+    .export-map{
+        width: 100%;
+        object-fit: cover;
+        margin-top: 20px;
+        
+
+        img{
+            position: relative;
+            width: 99%;
+        }
+
+        .country{
+            position: absolute;
+            width: 30px;
+
+            img{
+                
+                width: 30px;
+            }
+        }
+        
+
+        .export-dots-abd{
+            top: 30%;
+            left: 22%;
+
+        }
+        .export-dots-en{
+            top: 23%;
+            left: 42%;
+            
+        }
+        .export-dots-fr{
+            top: 29%;
+            left: 42.5%;
+            
+        }
+        .export-dots-sp{
+            top: 35%;
+            left: 41.5%;
+            
+        }
+        .export-dots-alg{
+            top: 38%;
+            left: 44%;
+        }
+        .export-dots-itl{
+            top: 36%;
+            left: 47%;
+        }
+        .export-dots-slo{
+            top: 33%;
+            left: 49.3%;
+        }
+        .export-dots-ger{
+            top: 27%;
+            left: 49.7%;
+        }
+        .export-dots-den{
+            top: 25%;
+            left: 47.2%;
+        }
+        .export-dots-nth{
+            top: 26%;
+            left:44.5%;
+        }
+        .export-dots-line{
+            top: 13%;
+            left:22.5%;
+            width: 31%;
+
+            img{
+                width:100%;
+            }
+            
+        }
+
+        .export-federal{
+            top: 30%;
+            left:51%;
+
+            img{
+                width: 50px;
+            }
+        }
+        
+    }
+}
+
+
+/* .export{
+    width: 100vw;
+    position: relative;
+    background-color: #15141C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    font-style: normal;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+
+
+    .export-head{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 60%;
+        color: #fff;
+        margin-top: 100px;
+        
+
+    
+
+        h2{
+            font-weight: 700;
+            font-size: 70px;
+        }
+        p{
+            text-align: center;
+            font-size: 13px;
+            margin: 0 50px;
+            color: #C1C1C1;
+        }
+    }
+
+    .export-map{
+        width: 100%;
+        height: 100vh;
+        background-image: url("../../assets/OBJECTS.png") !important;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-top: 0px;
+        position: relative;
+
+        .country{
+            position: absolute;
+            width: 30px;
+
+            img{
+                
+                width: 30px;
+            }
+        }
+        
+
+        .export-dots-abd{
+            top: 180px;
+            left: 320px;
+
+        }
+        .export-dots-en{
+            top: 150px;
+            left: 620px;
+            
+        }
+        .export-dots-fr{
+            top: 180px;
+            left: 630px;
+            
+        }
+        .export-dots-sp{
+            top: 210px;
+            left: 610px;
+            
+        }
+        .export-dots-alg{
+            top: 230px;
+            left: 640px;
+        }
+        .export-dots-itl{
+            top: 210px;
+            left: 690px;
+        }
+        .export-dots-slo{
+            top: 190px;
+            left: 720px;
+        }
+        .export-dots-ger{
+            top: 160px;
+            left: 730px;
+        }
+        .export-dots-den{
+            top: 150px;
+            left:695px;
+        }
+        .export-dots-nth{
+            top: 155px;
+            left:655px;
+        }
+        .export-dots-line{
+            top: 80px;
+            left:330px;
+
+            img{
+                width:450px;
+            }
+            
+        }
+
+        .export-federal{
+            top: 190px;
+            left:750px;
+
+            img{
+                width: 50px;
+            }
+        }
+        
+    }
+} */

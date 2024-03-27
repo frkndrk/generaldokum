@@ -1,0 +1,52 @@
+.sectors{
+    background-color: #15141C;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-style: normal;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    color: #fff;
+
+    h2{
+        font-weight: 700;
+        font-size: 70px;
+        margin-top: 100px;
+    }
+
+    .sector-info{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 90%;
+        margin-top: 50px;
+
+        .sector{
+            width:30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img{
+                height: 100%;
+                object-fit: cover;
+            }
+
+            .info{
+                display: flex;
+                justify-content: center;
+                align-items: start;
+                flex-direction: column;
+                padding-left: 10px;
+
+                h4{
+                    font-size: 20px;
+                }
+            }
+        }
+
+        
+    }
+}
