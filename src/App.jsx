@@ -2,6 +2,7 @@ import './App.css'
 import Capabilities from './components/capabilities/Capabilities'
 import ContDoc from './components/contDoc/ContDoc'
 import Export from './components/export/Export'
+import Footer from './components/footer/Footer'
 import Founder from './components/founder/Founder'
 import Intro from './components/intro/Intro'
 import Navbar from './components/navbar/Navbar'
@@ -20,6 +21,7 @@ function App() {
       <Export />
       <Founder />
       <ContDoc />
+      <Footer />
     </>
   )
 }

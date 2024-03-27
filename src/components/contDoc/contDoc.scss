@@ -3,58 +3,169 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #15141C;
+    flex-direction: column;
     font-style: normal;
     font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     color: #fff;
-    background-image: url("../../assets/Mask Group 4510.png"), url("../../assets/Mask Group 4509.png"), url("../../assets/sdsasadssae.fw.png");
-    background-position: left top, left 30% top, left 60% top 5%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
+    overflow: hidden;
+    
+    
+    .cntDc{
+        background-color: #15141C;
+        z-index: -1;
+        width: 100%;
+        position: relative;
+        height: 100vh;
+        
 
-    .cont{
+        img{
+            position: absolute;
+            opacity: 0.05;
+            width: 18%;
+
+            &:nth-child(1){
+                top: 10%;
+                left: 5%;
+            }
+            &:nth-child(2){
+                top: 10%;
+                left: 30%;
+            }
+            &:nth-child(3){
+                top: 15%;
+                right: 25%;
+            }
+            &:nth-child(4){
+                top: 10%;
+                right: -5%;
+            }
+            &:nth-child(5){
+                top: 45%;
+                left: -11%;
+            }
+            &:nth-child(6){
+                top: 48%;
+                left: 12%;
+            }
+            &:nth-child(7){
+                top: 45%;
+                right: 10%;
+            }
+            &:nth-child(8){
+                bottom: 0%;
+                left:1%;
+            }
+            &:nth-child(9){
+                bottom: -5%;
+                left: 35%;
+            }
+            &:nth-child(10){
+                bottom: 0%;
+                right: 18%;
+            }
+            &:nth-child(11){
+                bottom: 10%;
+                right: -6%;
+            }
+        }
+
+        .cont{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 300px;
+    
+            
+    
+            p{
+                color: #B72222;
+            }
+    
+            h2{
+                font-weight: 700;
+                font-size: 70px;
+                text-align: center;
+            }
+    
+            .right-side{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 62px;
+                margin-top: 100px;
+    
+                button{
+                    background-color: transparent;
+                    color: #fff;
+                    outline: none;
+                    border: 1px solid #aaa;
+    
+                    &:nth-child(1){
+                        width: 133px;
+                        height: 100%;
+                    }
+    
+                    &:nth-child(2){
+                        width: 70px;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .doc{
+        width: 100vw;
+        padding: 100px 0;
+        background-color: #15141C;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-top: 300px;
-        background-color: #15141C;
-        z-index: 111;
 
-        
-
-        p{
-            color: #B72222;
-        }
-
-        h2{
-            font-weight: 700;
-            font-size: 70px;
-            text-align: center;
-        }
-
-        .right-side{
+        .docCont{
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 62px;
+            gap: 2%;
+
+            img{
+                width: 21%;
+            }
+        }
+
+        .certificate{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 20px 0;
             margin-top: 100px;
+            background-color: #272631;
 
-            button{
-                background-color: transparent;
-                color: #fff;
-                outline: none;
-                border: 1px solid #aaa;
+            .logos{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
 
-                &:nth-child(1){
-                    width: 133px;
-                    height: 100%;
+                img{
+                    width: 15%;
+
+                    &:nth-child(3){
+                        width: 8%;
+                    }
                 }
-
-                &:nth-child(2){
-                    width: 70px;
-                    height: 100%;
-                }
+            }
+            
+            h3{
+                font-size: 40px;
+                font-weight: 400;
+                width: 300px;
+                padding-right: 40px;
             }
         }
     }
