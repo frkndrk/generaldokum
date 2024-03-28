@@ -15,8 +15,18 @@
     .fcontTop{
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: start;
         width: 100%;
+
+        @media (max-width: 1300px) {
+            height: 200px;
+        }
+
+        @media (max-width: 710px) {
+            height: auto;
+            flex-direction: column;
+            gap: 50px;
+        }
 
         .fcontLeft{
             margin-left: 85px;
@@ -25,9 +35,41 @@
             align-items: start;
             flex-direction: column;
 
+            @media (max-width: 710px) {
+                margin-left: 60px;
+            }
+
+            @media (max-width: 610px) {
+                margin-left: 45px;
+            }
+
+            @media (max-width: 500px) {
+                margin-left: 75px;
+            }
+
+            @media (max-width: 360px) {
+                margin-left: 50px;
+            }
+
             h1{
                 font-size: 50px;
                 font-weight: 600;
+
+                @media (max-width: 1300px) {
+                    font-size: 40px;
+                }
+
+                @media (max-width: 900px) {
+                    font-size: 30px;
+                }
+
+                @media (max-width: 710px) {
+                    font-size: 40px;
+                }
+
+                @media (max-width: 400px) {
+                    font-size: 30px;
+                }
             }
 
             .fIcons{
@@ -43,6 +85,16 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+
+                    @media (max-width: 900px) {
+                        width: 35px;
+                        height: 35px;
+
+                        img{
+                            width:12px;
+                        }
+                    }
+
                     &:nth-child(1){
                         background-color: #B72222;
                         border-radius: 50%;
@@ -72,8 +124,61 @@
             align-items: start;
             gap: 100px;
             margin-right: 85px;
-            margin-top: -20px;
+
+            @media (max-width: 1400px) {
+                gap: 50px;
+            }
+
+            @media (max-width: 1300px) {
+                gap: 30px;
+            }
+
+            @media (max-width: 1200px) {
+                margin-right: 30px;
+                width: 50%;
+                flex-wrap: wrap;
+            }
+
+            @media (max-width: 710px) {
+                flex-wrap: nowrap;
+                width: 90%;
+                display: flex;
+                justify-content: space-around;
+                align-items: start;
+                padding: 0 45px;
+            }
+
+            @media (max-width: 870px) {
+
+                div{
+                    ul{
+
+                        li{
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
             
+            @media (max-width: 500px) {
+                flex-direction: column;
+                margin-left: 30px;
+
+                div{
+                    ul{
+
+                        li{
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+
+            @media (max-width: 360px) {
+                margin-left: 10px;
+            }
+
+
             .rght1{
 
                 h4{
@@ -92,6 +197,7 @@
 
             }
             .rght2{
+                position: relative;
 
                 h4{
                     margin-bottom: 20px;
@@ -109,9 +215,39 @@
                 
             }
             .rght3{
+                margin-left: 30px;
+                position: relative;
+
+                @media (max-width: 1200px) {
+                    display: flex;
+                    gap: 30px;
+                }
+
+                @media (max-width: 870px) {
+                    margin-left: 20px;
+                }
+
+                @media (max-width: 710px) {
+                    flex-direction: column;
+                    margin-left: 0;
+                }
 
                 .rght3A{
                     margin-bottom: 30px;
+
+                    @media (max-width: 1200px) {
+                        margin-left: 15px;
+                    }
+
+                    @media (max-width: 710px) {
+                        margin-left: 0px;
+                        margin-bottom: 10px;
+                    }
+
+                    @media (max-width: 500px) {
+                        margin-right: 120px;
+                    }
+
                     h4{
                         margin-bottom: 20px;
                         color: #fff;
@@ -128,6 +264,12 @@
                 }
 
                 .rght3B{
+/* 
+                    @media (max-width: 500px) {
+                        top: 0px;
+                        left: -11%;
+                    } */
+
                     h4{
                         margin-bottom: 20px;
                         color: #fff;
@@ -154,6 +296,14 @@
         width: 100vw;
         margin: 100px;
 
+        @media (max-width: 500px) {
+            width: 90vw;
+        }
+
+        @media (max-width: 400px) {
+            width: 80vw;
+        }
+
         .cntBtm{
             width: 88%;
             display: flex;
@@ -162,13 +312,31 @@
             border-top: 2px dotted #545455;
             padding-top: 40px;
 
+            @media (max-width: 700px) {
+                flex-direction: column;
+                justify-content: center;
+                align-items: start;
+                gap: 40px;
+            }
+
             .logoFd{
                 img{
     
+                    @media (max-width: 900px) {
+                        width: 150px;
+                    }
                 }
                 p{
                     color: #ADADB9;
                     margin-top: 20px;
+
+                    @media (max-width: 900px) {
+                        font-size: 13px;
+                    }
+
+                    @media (max-width: 700px) {
+                        margin-top: 10px;
+                    }
                 }
             }
     
@@ -177,6 +345,13 @@
                     font-size: 25px;
                     font-weight: normal;
                     margin-bottom: 20px;
+
+                    @media (max-width: 900px) {
+                        font-size: 20px;
+                    }
+                    @media (max-width: 700px) {
+                        margin-bottom: 10px;
+                    }
                 }
     
                 form{
@@ -194,6 +369,10 @@
                         padding-left: 20px;
                         color: #fff;
                         position: relative;
+
+                        @media (max-width: 900px) {
+                            width: 250px;
+                        }
     
                     }
                     button{
@@ -206,6 +385,7 @@
                         position: absolute;
                         top: 0;
                         right: 0px;
+
                     }
                 }
             }

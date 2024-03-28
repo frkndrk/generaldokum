@@ -81,6 +81,10 @@
         .country{
             position: absolute;
             width: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
 
             img{
                 width: 30px;
@@ -101,56 +105,124 @@
                     width: 10px;
                 }
             }
+
+            p{
+                
+                @media (max-width: 950px) {
+                    display: none;
+                }
+            }
         }
         
 
         .export-dots-abd{
-            top: 30%;
-            left: 22%;
+            top: 29%;
+            left: 20%;
+
+            p{
+                position: absolute;
+                left: 40px;
+                font-size: 10px;
+                width: 130px;
+            }
 
         }
         .export-dots-en{
-            top: 23%;
-            left: 42%;
+            top: 20%;
+            left: 42.5%;
+
+            p{
+                position: absolute;
+                left: -40px;
+                top: -5px;
+                font-size: 10px;
+            }
             
         }
         .export-dots-fr{
-            top: 29%;
-            left: 42.5%;
+            top: 25%;
+            left: 43.3%;
+
+            p{
+                position: absolute;
+                left: -40px;
+                font-size: 10px;
+            }
             
         }
         .export-dots-sp{
-            top: 35%;
-            left: 41.5%;
+            top: 29%;
+            left: 42%;
+
+            p{
+                position: absolute;
+                left: -40px;
+                font-size: 10px;
+            }
             
         }
         .export-dots-alg{
-            top: 38%;
-            left: 44%;
+            top: 35%;
+            left: 43%;
+
+            p{
+                position: absolute;
+                left: -40px;
+                font-size: 10px;
+            }
         }
         .export-dots-itl{
-            top: 36%;
-            left: 47%;
+            top: 30%;
+            left: 46.4%;
+            p{
+                position: absolute;
+                left: -30px;
+                font-size: 10px;
+            }
         }
         .export-dots-slo{
-            top: 33%;
-            left: 49.3%;
+            top: 26%;
+            left: 48%;
+
+            p{
+                position: absolute;
+                left: 35px;
+                font-size: 10px;
+            }
         }
         .export-dots-ger{
-            top: 27%;
-            left: 49.7%;
+            top: 20%;
+            left: 48.5%;
+
+            p{
+                position: absolute;
+                left: 35px;
+                font-size: 10px;
+            }
         }
         .export-dots-den{
-            top: 25%;
-            left: 47.2%;
+            top: 19%;
+            left: 46.5%;
+
+            p{
+                position: absolute;
+                top: -15px;
+                font-size: 10px;
+            }
         }
         .export-dots-nth{
-            top: 26%;
-            left:44.5%;
+            top: 21%;
+            left:44.7%;
+
+            p{
+                position: absolute;
+                top: -15px;
+                font-size: 10px;
+            }
         }
         .export-dots-line{
-            top: 13%;
-            left:22.5%;
+            top: 10%;
+            left:21%;
             width: 31%;
 
             img{
@@ -160,8 +232,15 @@
         }
 
         .export-federal{
-            top: 30%;
+            top: 28%;
             left:51%;
+
+            p{
+                position: absolute;
+                left: 35px;
+                font-size: 10px;
+            }
+            
 
             img{
                 width: 50px;
