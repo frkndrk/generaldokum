@@ -16,16 +16,29 @@
         justify-content: center;
         align-items: center;
 
+        @media (max-width: 1020px) {
+            width: 90%;
+        }
+
         .info{
             display: flex;
             justify-content: center;
             align-items: start;
             flex-direction: column;
+            min-width: 300px;
 
             h3{
                 color: #fff;
                 font-size: 50px;
                 margin-bottom: 20px;
+
+                @media (max-width: 1250px) {
+                    font-size: 45px;
+                }
+
+                @media (max-width: 1020px) {
+                    font-size: 30px;
+                }
 
                 span{
                     font-weight: 400;
@@ -46,6 +59,21 @@
             display: flex;
             justify-content: center;
             align-items: center;
+
+            img{    
+
+                @media (max-width: 1020px) {
+                    width: 350px;
+                    height: 350px;
+                }
+
+                @media (max-width: 1020px) {
+                    width: 400px;
+                    height: 400px;
+                }
+
+                    
+            }
         }
     }
 }

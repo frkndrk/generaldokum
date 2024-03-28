@@ -4,6 +4,10 @@
     overflow: hidden;
     height: 100vh;
 
+    @media (max-width: 800px) {
+        height: 80vh;
+    }
+
 /*     background-image: url("../../assets/factory.png") !important;
     background-position: center;
     background-repeat: no-repeat;
@@ -45,11 +49,36 @@
         font-weight: 700;
         margin-top: -150px;
 
+        @media (max-width: 850px) {
+            margin-top: -380px;
+            margin-left: -50px;
+        }
+
+        @media (max-width: 470px) {
+            margin-left: -80px;
+        }
+
+        @media (max-width: 400px) {
+            margin-left: -90px;
+        }
+
         h1{
             position: absolute;
             font-size: 80px;
             bottom: 40%;
             left: 15%;
+
+            @media (max-width: 1100px) {
+                font-size: 60px;
+            }
+
+            @media (max-width: 1000px) {
+                font-size: 50px;
+            }
+
+            @media (max-width: 575px) {
+                font-size: 40px;
+            }
         }
 
         p{
@@ -57,6 +86,10 @@
             left: 15%;
             font-size: 16px;
             font-weight: 400;
+
+            @media (max-width: 575px) {
+                font-size: 13px;
+            }
         }
         
     }
@@ -73,12 +106,40 @@
         width: 200px;
         height: 100px;
 
+        @media (max-width: 850px) {
+            bottom: 3%;
+            left: 0;
+            margin-left: 55px;
+        }
+
+        @media (max-width: 470px) {
+            margin-left: 20px;
+        }
+
+        @media (max-width: 400px) {
+            margin-left: 10px;
+        }
+
+
         .icons{
             display: flex;
             justify-content: end;
             align-items: center;
             width: 200px;
             height: 100px;
+            margin-right: -100px;
+
+            @media (max-width: 1100px) {
+                width: 150px;
+                height: 75px;
+                margin-right: -150px;
+            }
+
+            @media (max-width: 850px) {
+                margin-left: -200px;
+                width: 120px;
+                height: 80px;
+            }
 
             .icon{
                 display: flex;
@@ -104,6 +165,14 @@
             font-size: 15px;
             text-align: right;
             letter-spacing: 0px;
+
+            @media (max-width: 1100px) {
+               font-size: 13px;
+            }
+
+            @media (max-width: 850px) {
+                margin-left: 10px;
+            }
         }
 
 
