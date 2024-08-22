@@ -5,12 +5,12 @@ const Founder = () => {
     <div className='founder'>
         <div className="contInfo">
             <div className="info">
-                <h3>Ahmet Akgül <span>(Kurucu)</span></h3>
-                <p>1968 yilinda Istanbul'da kurulan Celikel, getigimiz yarim yüzyil boyunca istikrarli ve yenilikçi bir büyüme yakaladi ve hizla degisen küresel otomotiv endüstrisi igin güvenilir bir tedarikçi olarak adini duyurdu. Bugün Celikel olarak otomotiv sektöründe edindigimiz bilgi ve tecrübemizi, tasarm ve ürün gelistirme konularinda üretim öncesinde tam bir isbirligi iginde calistigimiz müsterilerimize aktariyoruz.</p><br/>
-                <p>Bugün Celikel olarak otomotiv sektöründe edindigimiz bilgi ve tecrübemizi, tasarm ve ürün gelistirme konularinda üretim öncesinde tam bir isbirligi iginde calistigimiz müsterilerimize aktariyoruz.</p>
+                <h3>Faruk Demir <span>(Kurucu)</span></h3>
+                <p>1978 yılında İstanbul'da kurulan General Döküm, geçtiğimiz yarım yüzyil boyunca istikrarlı ve yenilikçi bir büyüme yakaladı ve hızla değisen küresel otomotiv endüstrisi için güvenilir bir tedarikçi olarak adını duyurdu.</p><br/>
+                <p>Bugün General Döküm olarak otomotiv sektöründe edindiğimiz bilgi ve tecrübemizi, tasarım ve ürün geliştirme konularında üretim öncesinde tam bir işbirliği içinde calıştığımız müşterilerimize aktarıyoruz.</p>
             </div>
             <div className="pic">
-                <img src="../../src/assets/Image 349.png" alt="" />
+                <img src="../../src/assets/boss2.jpg" alt="" />
             </div>
         </div>
     </div>

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./intro.scss";
-import homeImg1 from "../../assets/factory.png"
+import homeImg1 from "../../assets/factory.jpg"
 import homeVideo from "../../assets/h7-video-2.mp4"
 
 const Intro = () => {
@@ -61,8 +61,9 @@ const Intro = () => {
         <p>50 yılı aşkın tecrübe ve deneyim.</p>
       </div>
       <div className="fifty-years">
-        <div className="icons">
+        <div style={{position: "relative"}} className="icons">
           <img className="icon" src="../../src/assets/Group 312766.svg" alt="" />
+          <span className="title" style={{position: "absolute", color: "#FFE569", width: "120px", fontWeight: "bold", fontFamily: "serif", textShadow: "3px 3px 0px rgba(0,0,0,0.36)"}}>General Döküm</span>
         </div>
         <p>Sektörde uzun yıllardır kaliteden ödün vermeden üretmeye devam ediyoruz</p>
       </div>

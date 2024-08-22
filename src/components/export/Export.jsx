@@ -5,7 +5,7 @@ const Export = () => {
         <div className='export'>
             <div className="export-head">
                 <h2>İHRACAT NOKTALARIMIZ</h2>
-                <p>Federal Döküm, 1980 yılından bu güne gelen tecrübesi, ürettiği ürünlerdeki uzun ömürlülük ve yüksek kalite standartlarıyla dünyanın dört bir yanına ihracat yapan Alüminyum Pres Döküm ve Kalıp firmasıdır.</p>
+                <p>General Döküm, 1980 yılından bu güne gelen tecrübesi, ürettiği ürünlerdeki uzun ömürlülük ve yüksek kalite standartlarıyla dünyanın dört bir yanına ihracat yapan Alüminyum Pres Döküm ve Kalıp firmasıdır.</p>
             </div>
             <div className="export-map">
                 <img src="../../src/assets/OBJECTS.png" alt="" />
@@ -20,7 +20,7 @@ const Export = () => {
                 <div className="country export-dots-den"><img src="../../src/assets/denmark.svg" alt="" /><p>Danimarka</p></div>
                 <div className="country export-dots-nth"><img src="../../src/assets/netherland.svg" alt="" /><p>Hollanda</p></div>
                 <div className="country export-dots-line"><img src="../../src/assets/Group 312715.svg" alt="" /><p></p></div>
-                <div className="country export-federal"><img src="../../src/assets/Group 312714.svg" alt="" /><p>Federal Döküm</p></div>
+                <div className="country export-general" style={{display: "flex", justifyContent: "start", alignItems: "center"}}><span style={{color: "red", fontSize: "30px", fontWeight: "bold", background: "#fff", borderRadius: "20px", height: "30px", width: "30px", display: "flex", justifyContent: "center", alignItems: "center"}}>G</span><p>General Döküm</p></div>
             </div>
 
         </div>

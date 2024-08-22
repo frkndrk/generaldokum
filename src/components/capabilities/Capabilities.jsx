@@ -13,7 +13,7 @@ const Capabilities = () => {
                     <div className="contIn">
                         <h4>TASARIM KALIPLAMA</h4>
                         <div className="contIn1a">
-                            <p>Doğru mühendislik çözümlerini Federal Döküm'ün temel yetkinliğidir. Federal Döküm'ün proje...</p>
+                            <p>Doğru mühendislik çözümlerini General Döküm'ün temel yetkinliğidir. General Döküm'ün proje...</p>
                             <div className="contA1">
                                 <button>Devamı</button>
                                 <ArrowForwardIcon />
@@ -37,7 +37,7 @@ const Capabilities = () => {
                     <div className="contIn">
                         <h4>YÜZEY İŞLEM</h4>
                         <div className="contIn1a">
-                            <p>Federal Döküm'ün basınçlı döküm makine parkı, 160 tondan 1.350 tona kadar 27 makineden oluşmakta olup...</p>
+                            <p>General Döküm'ün basınçlı döküm makine parkı, 160 tondan 1.350 tona kadar 27 makineden oluşmakta olup...</p>
                             <div className="contA1">
                                 <button>Devamı</button>
                                 <ArrowForwardIcon />

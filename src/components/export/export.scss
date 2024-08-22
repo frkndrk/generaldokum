@@ -231,9 +231,15 @@
             
         }
 
-        .export-federal{
-            top: 28%;
+        .export-general{
+            top: 30%;
             left:51%;
+
+            span{
+                font-family: "Poppins", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
 
             p{
                 position: absolute;
@@ -376,7 +382,7 @@
             
         }
 
-        .export-federal{
+        .export-general{
             top: 190px;
             left:750px;
 

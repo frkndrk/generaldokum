@@ -19,8 +19,13 @@ const Navbar = () => {
 
   return (
     <div className={navbar ? "navbar active" : "navbar"} style={{position: navbar && "fixed", top: navbar && "0", backgroundColor: navbar && "#1D1C24"}}>
-        <div className="logo-cont">
-            <img className="logo" src="../../src/assets/Layer_x0020_1.svg" alt="" />
+        <div className="logo-cont" style={{display: "flex", flexDirection: "column"}}>
+            {/* <img className="logo" src="../../src/assets/Layer_x0020_1.svg" alt="" /> */}
+            <div className="logo" style={{display: "flex", justifyContent: "start", alignItems: "center", fontWeight: "bold", marginBottom: "10px"}}>
+                <span style={{color: "red", fontSize: "40px", background: "#fff", borderRadius: "20px", height: "40px", width: "40px", display: "flex", justifyContent: "center", alignItems: "center"}}>G</span>
+                <span style={{color: "#fff", fontSize: "30px"}}>ENERAL</span>
+            </div>
+            <span style={{color: "#fff", fontSize: "10px", marginTop: "-10px"}}>GENERAL DÖKÜM SANAYİ VE TİC. LTD. ŞTİ.</span>
         </div>
         <div className="rightSide">
             <div className="menuList">
