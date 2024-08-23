@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./intro.scss";
 import homeImg1 from "../../assets/factory.jpg"
 import homeVideo from "../../assets/h7-video-2.mp4"
+import logo from "../../assets/Group 312766.svg"
 
 const Intro = () => {
   const [currentState, setCurrentState] = useState(0)
@@ -62,7 +63,7 @@ const Intro = () => {
       </div>
       <div className="fifty-years">
         <div style={{position: "relative"}} className="icons">
-          <img className="icon" src="../../src/assets/Group 312766.svg" alt="" />
+          <img className="icon" src={logo} alt="" />
           <span className="title" style={{position: "absolute", color: "#FFE569", width: "120px", fontWeight: "bold", fontFamily: "serif", textShadow: "3px 3px 0px rgba(0,0,0,0.36)"}}>General Döküm</span>
         </div>
         <p>Sektörde uzun yıllardır kaliteden ödün vermeden üretmeye devam ediyoruz</p>
