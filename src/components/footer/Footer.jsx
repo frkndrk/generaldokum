@@ -1,5 +1,9 @@
 import "./footer.scss"
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import icon1 from "../../assets/facebook.svg";
+import icon2 from "../../assets/Group 312767.svg";
+import icon3 from "../../assets/twitter.svg";
+import icon4 from "../../assets/linkedin.svg";
 
 
 const Footer = () => {
@@ -10,10 +14,10 @@ const Footer = () => {
                     <h1>SİZ HAYAL EDİN,</h1>
                     <h1>BİZ ÜRETELİM.</h1>
                     <div className="fIcons">
-                        <span><img src="../../src/assets/facebook.svg" alt="" /></span>
-                        <span><img src="../../src/assets/Group 312767.svg" alt="" /></span>
-                        <span><img src="../../src/assets/twitter.svg" alt="" /></span>
-                        <span><img src="../../src/assets/linkedin.svg" alt="" /></span>
+                        <span><img src={icon1} alt="" /></span>
+                        <span><img src={icon2} alt="" /></span>
+                        <span><img src={icon3} alt="" /></span>
+                        <span><img src={icon4} alt="" /></span>
                     </div>
                 </div>
                 <div className="fcontRight">
@@ -55,7 +59,6 @@ const Footer = () => {
             <div className="fcontBottom">
                 <div className="cntBtm">
                     <div className="logoFd">
-                        {/* <img src="../../src/assets/Layer_x0020_1.svg" alt="" /> */}
                         <div className="logo-cont2" style={{ display: "flex", flexDirection: "column"}}>
                             <div style={{ display: "flex", justifyContent: "start", alignItems: "center", fontWeight: "bold", marginBottom: "10px" }}>
                                 <span style={{ color: "red", fontSize: "40px", background: "#fff", borderRadius: "20px", height: "40px", width: "40px", display: "flex", justifyContent: "center", alignItems: "center" }}>G</span>

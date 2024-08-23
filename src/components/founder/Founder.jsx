@@ -1,4 +1,5 @@
 import "./founder.scss"
+import founder from "../../assets/boss2.jpg";
 
 const Founder = () => {
   return (
@@ -10,7 +11,7 @@ const Founder = () => {
                 <p>Bugün General Döküm olarak otomotiv sektöründe edindiğimiz bilgi ve tecrübemizi, tasarım ve ürün geliştirme konularında üretim öncesinde tam bir işbirliği içinde calıştığımız müşterilerimize aktarıyoruz.</p>
             </div>
             <div className="pic">
-                <img src="../../src/assets/boss2.jpg" alt="" />
+                <img src={founder} alt="" />
             </div>
         </div>
     </div>
